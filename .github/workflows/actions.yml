@@ -1,0 +1,12 @@
+name: Actions Workflow
+
+on: [push, pull_request]
+
+jobs:
+  run-github-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: List Files
+        run: |
+          Get-location
+        shell: pwsh
