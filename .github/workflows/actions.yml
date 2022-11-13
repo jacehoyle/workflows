@@ -8,5 +8,5 @@ jobs:
     steps:
       - name: List Files
         run: |
-          Get-location
+          Get-ChildItem
         shell: pwsh
