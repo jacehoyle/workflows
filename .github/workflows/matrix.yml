@@ -27,5 +27,5 @@ jobs:
       - name: Log Node Version
         run: |
           node -v
-          Write-Host $IS_UBUNTU_8
+          Write-Host $env:IS_UBUNTU_8
         shell: pwsh
